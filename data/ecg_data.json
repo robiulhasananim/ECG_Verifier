@@ -4,7 +4,6 @@
     "ID": "458",
     "Gender": "Female",
     "Age": "Unknown",
-    "Heart Rate": "95 bpm",
     "QRS": "104 ms",
     "QT/QTcBaz": "410/515 ms",
     "PR": "112 ms",
@@ -14,28 +13,28 @@
     "Diagnosis 1": "Inferior infarct, age undetermined",
     "Diagnosis 2": "Anterior infarct, age undetermined",
     "Diagnosis 3": "ST & T wave abnormality, consider lateral ischemia",
-    "Additional Notes": "Prolonged QT, abnormal ECG"
+    "Additional Notes": "Prolonged QT, abnormal ECG",
+    "Heart Rate": "95 bpm"
   },
   "ecg_460.jpg": {
     "Patient Name": "Izhan",
     "ID": "31872",
     "Gender": "Male",
     "Age": "2 Years",
-    "Heart Rate": "102 bpm",
     "QRS": "72 ms",
     "QT/QTcBaz": "326/424 ms",
     "PR": "130 ms",
     "P": "86 ms",
     "RR/PP": "586/588 ms",
     "P/QRS/T": "Normal sinus rhythm with sinus arrhythmia",
-    "Diagnosis 1": "Normal ECG"
+    "Diagnosis 1": "Normal ECG",
+    "Heart Rate": "102 bpm"
   },
   "ecg_461.jpg": {
     "Patient Name": "Samsul Haque",
     "ID": "31863",
     "Gender": "Male",
     "Age": "51 Years",
-    "Heart Rate": "96 bpm",
     "QRS": "92 ms",
     "QT/QTcBaz": "370/467 ms",
     "PR": "150 ms",
@@ -43,42 +42,42 @@
     "RR/PP": "622/625 ms",
     "P/QRS/T": "Normal sinus rhythm",
     "Diagnosis 1": "Possible Left atrial enlargement",
-    "Diagnosis 2": "Borderline ECG"
+    "Diagnosis 2": "Borderline ECG",
+    "Heart Rate": "96 bpm"
   },
   "ecg_462.jpg": {
     "Patient Name": "Josna",
     "ID": "31051",
     "Gender": "Female",
     "Age": "Unknown",
-    "Heart Rate": "81 bpm",
     "QRS": "76 ms",
     "QT/QTcBaz": "348/404 ms",
     "PR": "84 ms",
     "P": "736/740 ms",
     "RR/PP": "57/19 ms",
     "P/QRS/T": "Normal sinus rhythm",
-    "Diagnosis 1": "Normal ECG"
+    "Diagnosis 1": "Normal ECG",
+    "Heart Rate": "81 bpm"
   },
   "ecg_463.jpg": {
     "Patient Name": "Basatun Nesa",
     "ID": "31839",
     "Gender": "Female",
     "Age": "60 Years",
-    "Heart Rate": "68 bpm",
     "QRS": "80 ms",
     "QT/QTcBaz": "400/425 ms",
     "PR": "186 ms",
     "P": "96 ms",
     "RR/PP": "880/882 ms",
     "P/QRS/T": "Normal sinus rhythm with sinus arrhythmia",
-    "Diagnosis 1": "Normal ECG"
+    "Diagnosis 1": "Normal ECG",
+    "Heart Rate": "68 bpm"
   },
   "ecg_464.jpg": {
     "Patient Name": "Tanvic",
     "ID": "317991",
     "Gender": "Male",
     "Age": "27 Years",
-    "Heart Rate": "89 bpm",
     "QRS": "88 ms",
     "QT/QTcBaz": "318/386 ms",
     "PR": "136 ms",
@@ -86,14 +85,14 @@
     "RR/PP": "670/674 ms",
     "P/QRS/T": "Normal sinus rhythm",
     "Diagnosis 1": "Nonspecific T wave abnormality",
-    "Diagnosis 2": "Abnormal ECG"
+    "Diagnosis 2": "Abnormal ECG",
+    "Heart Rate": "89 bpm"
   },
   "ecg_465.jpg": {
     "Patient Name": "Akhi",
     "ID": "31170",
     "Gender": "Female",
     "Age": "25 Years",
-    "Heart Rate": "96 bpm",
     "QRS": "84 ms",
     "QT/QTcBaz": "364/459 ms",
     "PR": "124 ms",
@@ -101,70 +100,70 @@
     "RR/PP": "624/625 ms",
     "P/QRS/T": "Normal sinus rhythm",
     "Diagnosis 1": "Left ventricular hypertrophy with repolarization abnormality",
-    "Diagnosis 2": "Abnormal ECG"
+    "Diagnosis 2": "Abnormal ECG",
+    "Heart Rate": "96 bpm"
   },
   "ecg_466.jpg": {
     "Patient Name": "EEB Kulsum",
     "ID": "30966",
     "Gender": "Female",
     "Age": "23 Years",
-    "Heart Rate": "77 bpm",
     "QRS": "80 ms",
     "QT/QTcBaz": "372/420 ms",
     "PR": "164 ms",
     "P": "108 ms",
     "RR/PP": "776/779 ms",
     "P/QRS/T": "Normal sinus rhythm",
-    "Diagnosis 1": "Normal ECG"
+    "Diagnosis 1": "Normal ECG",
+    "Heart Rate": "77 bpm"
   },
   "ecg_467.jpg": {
     "Patient Name": "Jalal",
     "ID": "924",
     "Gender": "Male",
     "Age": "52 Years",
-    "Heart Rate": "81 bpm",
     "QRS": "88 ms",
     "QT/QTcBaz": "350/406 ms",
     "PR": "182 ms",
     "P": "96 ms",
     "RR/PP": "736/740 ms",
     "P/QRS/T": "Normal sinus rhythm",
-    "Diagnosis 1": "Normal ECG"
+    "Diagnosis 1": "Normal ECG",
+    "Heart Rate": "81 bpm"
   },
   "ecg_468.jpg": {
     "Patient Name": "Akhi",
     "ID": "30795",
     "Gender": "Female",
     "Age": "35 Years",
-    "Heart Rate": "82 bpm",
     "QRS": "70 ms",
     "QT/QTcBaz": "350/408 ms",
     "PR": "142 ms",
     "P": "94 ms",
     "RR/PP": "728/731 ms",
     "P/QRS/T": "Normal sinus rhythm",
-    "Diagnosis 1": "Normal ECG"
+    "Diagnosis 1": "Normal ECG",
+    "Heart Rate": "82 bpm"
   },
   "ecg_469.jpg": {
     "Patient Name": "Kayes",
     "ID": "30169",
     "Gender": "Male",
     "Age": "25 Years",
-    "Heart Rate": "63 bpm",
     "QRS": "86 ms",
     "QT/QTcBaz": "388/397 ms",
     "PR": "152 ms",
     "P": "94 ms",
     "RR/PP": "950/952 ms",
     "P/QRS/T": "Normal sinus rhythm",
-    "Diagnosis 1": "Normal ECG"
+    "Diagnosis 1": "Normal ECG",
+    "Heart Rate": "63 bpm"
   },
   "ecg_470.jpg": {
     "Patient Name": "Amena",
     "ID": "313S",
     "Gender": "Female",
     "Age": "Unknown",
-    "Heart Rate": "87 bpm",
     "QRS": "68 ms",
     "QT/QTcBaz": "386/464 ms",
     "PR": "116 ms",
@@ -172,28 +171,28 @@
     "RR/PP": "690/689 ms",
     "P/QRS/T": "Normal sinus rhythm",
     "Diagnosis 1": "Nonspecific T wave abnormality",
-    "Diagnosis 2": "Abnormal ECG"
+    "Diagnosis 2": "Abnormal ECG",
+    "Heart Rate": "87 bpm"
   },
   "ecg_471.jpg": {
     "Patient Name": "Niha Shahamia",
     "ID": "29967",
     "Gender": "Female",
     "Age": "23 Years",
-    "Heart Rate": "88 bpm",
     "QRS": "64 ms",
     "QT/QTcBaz": "350/423 ms",
     "PR": "88 ms",
     "P": "66 ms",
     "RR/PP": "682/681 ms",
     "P/QRS/T": "Sinus rhythm with short RR",
-    "Diagnosis 1": "Normal ECG"
+    "Diagnosis 1": "Normal ECG",
+    "Heart Rate": "88 bpm"
   },
   "ecg_472.jpg": {
     "Patient Name": "Moin Shikder",
     "ID": "29953",
     "Gender": "Male",
     "Age": "21 Years",
-    "Heart Rate": "51 bpm",
     "QRS": "100 ms",
     "QT/QTcBaz": "474/436 ms",
     "PR": "126 ms",
@@ -201,14 +200,14 @@
     "RR/PP": "1180/1176 ms",
     "P/QRS/T": "Sinus bradycardia",
     "Diagnosis 1": "Moderate voltage criteria for LVH, may be normal variant",
-    "Diagnosis 2": "Borderline ECG"
+    "Diagnosis 2": "Borderline ECG",
+    "Heart Rate": "51 bpm"
   },
   "ecg_473.jpg": {
     "Patient Name": "Priyanka",
     "ID": "29936",
     "Gender": "Female",
     "Age": "32 Years",
-    "Heart Rate": "85 bpm",
     "QRS": "80 ms",
     "QT/QTcBaz": "342/406 ms",
     "PR": "132 ms",
@@ -216,28 +215,28 @@
     "RR/PP": "706/705 ms",
     "P/QRS/T": "Normal sinus rhythm",
     "Diagnosis 1": "Normal ECG",
-    "Additional Notes": "Poor data quality, interpretation may be adversely affected"
+    "Additional Notes": "Poor data quality, interpretation may be adversely affected",
+    "Heart Rate": "85 bpm"
   },
   "ecg_474.jpg": {
     "Patient Name": "Fu Tara",
     "ID": "29817",
     "Gender": "Female",
     "Age": "45 Years",
-    "Heart Rate": "69 bpm",
     "QRS": "80 ms",
     "QT/QTcBaz": "424/454 ms",
     "PR": "138 ms",
     "P": "90 ms",
     "RR/PP": "864/869 ms",
     "P/QRS/T": "Normal sinus rhythm",
-    "Diagnosis 1": "Normal ECG"
+    "Diagnosis 1": "Normal ECG",
+    "Heart Rate": "69 bpm"
   },
   "ecg_475.jpg": {
     "Patient Name": "Unknown",
     "ID": "28556",
     "Gender": "Male",
     "Age": "Unknown",
-    "Heart Rate": "90 bpm",
     "QRS": "108 ms",
     "QT/QTcBaz": "384/428 ms",
     "PR": "104 ms",
@@ -245,14 +244,14 @@
     "RR/PP": "800/802 ms",
     "P/QRS/T": "Sinus rhythm with short PR",
     "Diagnosis 1": "Possible Left atrial enlargement",
-    "Diagnosis 2": "Borderline ECG"
+    "Diagnosis 2": "Borderline ECG",
+    "Heart Rate": "90 bpm"
   },
   "ecg_476.jpg": {
     "Patient Name": "Samia Akter",
     "ID": "28449",
     "Gender": "Female",
     "Age": "10 Years",
-    "Heart Rate": "99 bpm",
     "QRS": "76 ms",
     "QT/QTcBaz": "374/479 ms",
     "PR": "138 ms",
@@ -260,14 +259,14 @@
     "RR/PP": "604/606 ms",
     "P/QRS/T": "Normal sinus rhythm",
     "Diagnosis 1": "Pediatric ECG analysis",
-    "Diagnosis 2": "Borderline Prolonged QT"
+    "Diagnosis 2": "Borderline Prolonged QT",
+    "Heart Rate": "99 bpm"
   },
   "ecg_477.jpg": {
     "Patient Name": "Md Abul Thair",
     "ID": "2843",
     "Gender": "Male",
     "Age": "73 Years",
-    "Heart Rate": "79 bpm",
     "QRS": "92 ms",
     "QT/QTcBaz": "380/435 ms",
     "PR": "146 ms",
@@ -275,28 +274,28 @@
     "RR/PP": "754/759 ms",
     "P/QRS/T": "Normal sinus rhythm",
     "Diagnosis 1": "Left ventricular hypertrophy with repolarization abnormality",
-    "Diagnosis 2": "Abnormal ECG"
+    "Diagnosis 2": "Abnormal ECG",
+    "Heart Rate": "79 bpm"
   },
   "ecg_478.jpg": {
     "Patient Name": "Nur Jahan",
     "ID": "28269",
     "Gender": "Female",
     "Age": "55 Years",
-    "Heart Rate": "155 bpm",
     "QRS": "82 ms",
     "QT/QTcBaz": "Infarct age undetermined",
     "PR": "QRS 326/523 ms",
     "P": "386/387 ms",
     "RR/PP": "7221 ms",
     "P/QRS/T": "Sinus tachycardia with short PR",
-    "Diagnosis 1": "Anterior infarct"
+    "Diagnosis 1": "Anterior infarct",
+    "Heart Rate": "155 bpm"
   },
   "ecg_479.jpg": {
     "Patient Name": "Abdurrazzak",
     "ID": "28018",
     "Gender": "Male",
     "Age": "49 Years",
-    "Heart Rate": "75 bpm",
     "QRS": "68 ms",
     "QT/QTcBaz": "422/1471 ms",
     "PR": "124 ms",
@@ -304,28 +303,28 @@
     "RR/PP": "798/800 ms",
     "P/QRS/T": "Normal sinus rhythm",
     "Diagnosis 1": "Nonspecific T wave abnormality",
-    "Diagnosis 2": "Abnormal ECG"
+    "Diagnosis 2": "Abnormal ECG",
+    "Heart Rate": "75 bpm"
   },
   "ecg_480.jpg": {
     "Patient Name": "Julekha Akter",
     "ID": "27068",
     "Gender": "Female",
     "Age": "38 Years",
-    "Heart Rate": "75 bpm",
     "QRS": "74 ms",
     "QT/QTcBaz": "398/1444 ms",
     "PR": "136 ms",
     "P": "94 ms",
     "RR/PP": "794/800 ms",
     "P/QRS/T": "Normal sinus rhythm",
-    "Diagnosis 1": "Normal ECG"
+    "Diagnosis 1": "Normal ECG",
+    "Heart Rate": "75 bpm"
   },
   "ecg_481.jpg": {
     "Patient Name": "Jannatul",
     "ID": "27045",
     "Gender": "Female",
     "Age": "Unknown",
-    "Heart Rate": "107 bpm",
     "QRS": "82 ms",
     "QT/QTcBaz": "336/448 ms",
     "PR": "140 ms",
@@ -333,14 +332,14 @@
     "RR/PP": "558/560 ms",
     "P/QRS/T": "Normal sinus rhythm",
     "Diagnosis 1": "Pediatric ECG analysis",
-    "Diagnosis 2": "Normal ECG"
+    "Diagnosis 2": "Normal ECG",
+    "Heart Rate": "107 bpm"
   },
   "ecg_482.jpg": {
     "Patient Name": "Mrs. Runa",
     "ID": "25862",
     "Gender": "Female",
     "Age": "36 Years",
-    "Heart Rate": "196 bpm",
     "QRS": "264/476 ms",
     "QT/QTcBaz": "304/337 ms",
     "PR": "356 ms",
@@ -349,14 +348,14 @@
     "P/QRS/T": "Lateral infarct",
     "Diagnosis 1": "Left axis deviation",
     "Diagnosis 2": "Nonspecific intraventricular block",
-    "Diagnosis 3": "Abnormal ECG"
+    "Diagnosis 3": "Abnormal ECG",
+    "Heart Rate": "196 bpm"
   },
   "ecg_483.jpg": {
     "Patient Name": "Ashikur Rahman",
     "ID": "25584",
     "Gender": "Male",
     "Age": "25 Years",
-    "Heart Rate": "62 bpm",
     "QRS": "80 ms",
     "QT/QTcBaz": "398/403 ms",
     "PR": "138 ms",
@@ -364,7 +363,8 @@
     "RR/PP": "974/967 ms",
     "P/QRS/T": "Normal sinus rhythm",
     "Diagnosis 1": "Sorelevation probably due to early repolarization",
-    "Diagnosis 2": "Borderline ECG"
+    "Diagnosis 2": "Borderline ECG",
+    "Heart Rate": "62 bpm"
   }
 }
 

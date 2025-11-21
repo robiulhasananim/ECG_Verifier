@@ -23,7 +23,7 @@ def index(request):
                 data = json.load(f)
                 last_image = data.get('last_image')
                 if last_image in images:
-                    start_index = images.index(last_image)
+                    start_index = images.index(last_image) + 1
         except json.JSONDecodeError:
             start_index = 0
 
