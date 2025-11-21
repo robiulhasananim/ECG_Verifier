@@ -167,7 +167,9 @@ venv.bak/
 # mkdocs documentation
 /site
 
-/media
+# Ignore media folder
+media/
+
 
 # mypy
 .mypy_cache/
