@@ -1,0 +1,62 @@
+{
+    "ecg_459.jpg": {
+        "Patient Name": "Niyoti T",
+        "ID": "458",
+        "Gender": "Female",
+        "Age": "Unknown",
+        "Heart Rate": "95 bpm",
+        "QRS": "104 ms",
+        "QT/QTcBaz": "410/515 ms",
+        "PR": "112 ms",
+        "P": "60 ms",
+        "RR/PP": "632/631 ms",
+        "P/QRS/T": "Normal sinus rhythm",
+        "Diagnosis 1": "Inferior infarct, age undetermined",
+        "Diagnosis 2": "Anterior infarct, age undetermined",
+        "Diagnosis 3": "ST & T wave abnormality, consider lateral ischemia",
+        "Additional Notes": "Prolonged QT, abnormal ECG"
+    },
+    "ecg_460.jpg": {
+        "Patient Name": "Izhan",
+        "ID": "31872",
+        "Gender": "Male",
+        "Age": "2 Years",
+        "Heart Rate": "102 bpm",
+        "QRS": "72 ms",
+        "QT/QTcBaz": "326/424 ms",
+        "PR": "130 ms",
+        "P": "86 ms",
+        "RR/PP": "586/588 ms",
+        "P/QRS/T": "Normal sinus rhythm with sinus arrhythmia",
+        "Diagnosis 1": "Normal ECG"
+    },
+    "ecg_461.jpg": {
+        "Patient Name": "Samsul Haque",
+        "ID": "31863",
+        "Gender": "Male",
+        "Age": "51 Years",
+        "Heart Rate": "96 bpm",
+        "QRS": "92 ms",
+        "QT/QTcBaz": "370/467 ms",
+        "PR": "150 ms",
+        "P": "88 ms",
+        "RR/PP": "622/625 ms",
+        "P/QRS/T": "Normal sinus rhythm",
+        "Diagnosis 1": "Possible Left atrial enlargement",
+        "Diagnosis 2": "Borderline ECG"
+    },
+    "ecg_462.jpg": {
+        "Patient Name": "Josna",
+        "ID": "31051",
+        "Gender": "Female",
+        "Age": "Unknown",
+        "Heart Rate": "81 bpm",
+        "QRS": "76 ms",
+        "QT/QTcBaz": "348/404 ms",
+        "PR": "84 ms",
+        "P": "736/740 ms",
+        "RR/PP": "57/19 ms",
+        "P/QRS/T": "Normal sinus rhythm",
+        "Diagnosis 1": "Normal ECG"
+    }
+}
