@@ -58,5 +58,49 @@
         "RR/PP": "57/19 ms",
         "P/QRS/T": "Normal sinus rhythm",
         "Diagnosis 1": "Normal ECG"
+    },
+    "ecg_463.jpg": {
+        "Patient Name": "Basatun Nesa",
+        "ID": "31839",
+        "Gender": "Female",
+        "Age": "60 Years",
+        "Heart Rate": "68 bpm",
+        "QRS": "80 ms",
+        "QT/QTcBaz": "400/425 ms",
+        "PR": "186 ms",
+        "P": "96 ms",
+        "RR/PP": "880/882 ms",
+        "P/QRS/T": "Normal sinus rhythm with sinus arrhythmia",
+        "Diagnosis 1": "Normal ECG"
+    },
+    "ecg_464.jpg": {
+        "Patient Name": "Tanvic",
+        "ID": "317991",
+        "Gender": "Male",
+        "Age": "27 Years",
+        "Heart Rate": "89 bpm",
+        "QRS": "88 ms",
+        "QT/QTcBaz": "318/386 ms",
+        "PR": "136 ms",
+        "P": "104 ms",
+        "RR/PP": "670/674 ms",
+        "P/QRS/T": "Normal sinus rhythm",
+        "Diagnosis 1": "Nonspecific T wave abnormality",
+        "Diagnosis 2": "Abnormal ECG"
+    },
+    "ecg_465.jpg": {
+        "Patient Name": "Akhi",
+        "ID": "31170",
+        "Gender": "Female",
+        "Age": "25 Years",
+        "Heart Rate": "96 bpm",
+        "QRS": "84 ms",
+        "QT/QTcBaz": "364/459 ms",
+        "PR": "124 ms",
+        "P": "80 ms",
+        "RR/PP": "624/625 ms",
+        "P/QRS/T": "Normal sinus rhythm",
+        "Diagnosis 1": "Left ventricular hypertrophy with repolarization abnormality",
+        "Diagnosis 2": "Abnormal ECG"
     }
 }

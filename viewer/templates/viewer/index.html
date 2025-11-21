@@ -4,41 +4,118 @@
 <head>
     <title>ECG Verifier</title>
     <style>
+        /* ===== Dark body ===== */
         body {
             font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+            padding: 0;
         }
+
+        /* ===== Container ===== */
         #container {
             display: flex;
             gap: 20px;
             padding: 20px;
+            flex-wrap: wrap; /* responsive for small screens */
+            justify-content: center;
         }
+
+        /* ===== OpenSeadragon viewer ===== */
         #openseadragon {
-            width: 600px;
+            flex: 1 1 600px; /* grow, shrink, base width */
+            max-width: 600px;
             height: 500px;
-            background-color: black;
+            background-color: #000;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.7);
         }
+
+        /* ===== Data container ===== */
         #data-container {
+            flex: 1 1 350px; /* grow, shrink, base width */
             max-width: 400px;
+            display: flex;
+            flex-direction: column;
         }
+
+        /* ===== Scrollable form ===== */
+        #data-form {
+            overflow-y: auto;
+            max-height: 500px;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #444;
+            background-color: #1e1e1e;
+        }
+
+        #data-form label {
+            display: block;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            color: #ffcc80;
+        }
+
         #data-form input {
             width: 100%;
-            margin-bottom: 10px;
-            padding: 5px;
+            padding: 8px;
+            margin-bottom: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: #2b2b2b;
+            color: #fff;
         }
-        #data-form label {
-            font-weight: bold;
+
+        #data-form input:focus {
+            outline: 2px solid #ff5722;
         }
+
+        /* ===== Save button ===== */
         #save-btn {
-            padding: 10px 15px;
+            padding: 12px 20px;
             margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            background: linear-gradient(45deg, #ff5722, #ff9800);
+            color: #fff;
+            font-weight: bold;
             cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #save-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px #ff9800;
+        }
+
+        /* ===== Scrollbar styling ===== */
+        #data-form::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        #data-form::-webkit-scrollbar-track {
+            background: #1e1e1e;
+        }
+
+        #data-form::-webkit-scrollbar-thumb {
+            background-color: #ff5722;
+            border-radius: 4px;
+        }
+
+        /* ===== Responsive for small screens ===== */
+        @media (max-width: 1050px) {
+            #openseadragon, #data-container {
+                flex: 1 1 100%;
+            }
         }
     </style>
 </head>
 <body>
 
 <div id="container">
-    <!-- Left: OpenSeadragon image viewer -->
+    <!-- Left: OpenSeadragon viewer -->
     <div id="openseadragon"></div>
 
     <!-- Right: JSON form -->
@@ -50,7 +127,13 @@
 
 <!-- OpenSeadragon library -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/3.1.0/openseadragon.min.js"></script>
-
+<script>
+    let images = {{ images|safe }};
+    let currentIndex = {{ start_index }};
+    let img_base64 = "{{ img_base64 }}";
+</script>
+<script src="{% static 'viewer/main.js' %}"></script>
+{% comment %} 
 <script>
 let images = {{ images|safe }};
 let currentIndex = {{ start_index }};
@@ -70,7 +153,7 @@ let viewer = OpenSeadragon({
     zoomPerScroll: 1.5
 });
 
-// Function to load JSON data for current image
+// Load JSON data for current image
 function loadData() {
     let imgName = images[currentIndex];
     fetch(`/api/data/${imgName}/`)
@@ -90,8 +173,8 @@ function loadData() {
         });
 }
 
-// Function to save verified data
-function saveData() {
+// Save verified data
+document.getElementById('save-btn').addEventListener('click', () => {
     let form = document.getElementById('data-form');
     let verified_data = {};
     [...form.elements].forEach(el => {
@@ -113,10 +196,7 @@ function saveData() {
         if(res.status === 'success'){
             currentIndex++;
             if(currentIndex < images.length){
-                // Update image
-                fetchNextImage();
-                // Load next JSON data
-                loadData();
+                window.location.reload();
             } else {
                 alert("All images verified!");
             }
@@ -124,15 +204,7 @@ function saveData() {
             alert("Error saving data: " + res.message);
         }
     });
-}
-
-// Function to fetch next image base64 and update viewer
-function fetchNextImage() {
-    let imgName = images[currentIndex];
-    // We can fetch next base64 from backend if needed, for simplicity reload page
-    // Or you can implement an API to return base64 for next image
-    window.location.reload();
-}
+});
 
 // CSRF helper
 function getCookie(name) {
@@ -152,7 +224,7 @@ function getCookie(name) {
 
 // Load initial JSON data
 loadData();
+</script> {% endcomment %}
 
-</script>
 </body>
 </html>

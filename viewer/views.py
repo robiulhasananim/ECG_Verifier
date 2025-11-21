@@ -82,9 +82,18 @@ def save_verified_data(request):
             with open(PROGRESS_PATH, 'w') as f:
                 json.dump({'last_image': img_name}, f)
 
+            # ✅ Send success
             return JsonResponse({'status': 'success'})
 
         except Exception as e:
             return JsonResponse({'status': 'error', 'message': str(e)})
 
     return JsonResponse({'status': 'error', 'message': 'Invalid request method'})
+
+def next_image_base64(request, img_name):
+    img_path = os.path.join(IMG_DIR, img_name)
+    if os.path.exists(img_path):
+        with open(img_path, 'rb') as f:
+            img_base64 = base64.b64encode(f.read()).decode('utf-8')
+        return JsonResponse({'img_base64': img_base64})
+    return JsonResponse({'img_base64': ''})
