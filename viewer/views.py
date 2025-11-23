@@ -71,10 +71,25 @@ def save_verified_data(request):
             else:
                 final_data = {}
 
-            # Update final_data
-            final_data[img_name] = verified_data
+            # ============================
+            # Merge old data with new inputs
+            # ============================
+            # Load existing original data
+            if os.path.exists(DATA_PATH):
+                try:
+                    with open(DATA_PATH) as f:
+                        original_data = json.load(f).get(img_name, {})
+                except json.JSONDecodeError:
+                    original_data = {}
+            else:
+                original_data = {}
 
-            # Save final_data
+            # Merge original data + user verified data
+            merged_data = {**original_data, **verified_data}
+
+            # Save merged data
+            final_data[img_name] = merged_data
+
             with open(FINAL_PATH, 'w') as f:
                 json.dump(final_data, f, indent=4)
 
@@ -82,13 +97,13 @@ def save_verified_data(request):
             with open(PROGRESS_PATH, 'w') as f:
                 json.dump({'last_image': img_name}, f)
 
-            # ✅ Send success
             return JsonResponse({'status': 'success'})
 
         except Exception as e:
             return JsonResponse({'status': 'error', 'message': str(e)})
 
     return JsonResponse({'status': 'error', 'message': 'Invalid request method'})
+
 
 def next_image_base64(request, img_name):
     img_path = os.path.join(IMG_DIR, img_name)
