@@ -94,11 +94,11 @@
         "P": "104 ms",
         "RR/PP": "670/674 ms",
         "P/QRS/T": "68/44/67 degrees ",
-        "Diagnosis 1": "Normal sinus rhythm Nonspecific T wave abnormality",
-        "Diagnosis 2": "Abnormal ECG",
+        "Diagnosis 1": "Normal sinus rhythm Nonspecific T wave abnormality Abnormal ECG",
+        "Diagnosis 2": "",
         "Heart Rate": "89 bpm",
         "date": "25-07-25",
-        "ECG_Label": "normal ECG"
+        "ECG_Label": "abnormal ECG"
     },
     "ecg_465.jpg": {
         "Patient Name": "Akhi",
@@ -111,11 +111,11 @@
         "P": "80 ms",
         "RR/PP": "624/625 ms",
         "P/QRS/T": "30/1/4",
-        "Diagnosis 1": "Normal sinus rhythm Left ventricular hypertrophy with repolarization abnormality",
-        "Diagnosis 2": "Abnormal ECG",
+        "Diagnosis 1": "Normal sinus rhythm Left ventricular hypertrophy with repolarization abnormality Abnormal ECG",
+        "Diagnosis 2": "",
         "Heart Rate": "96 bpm",
         "date": "25-07-25",
-        "ECG_Label": "normal ECG"
+        "ECG_Label": "abnormal ECG"
     },
     "ecg_466.jpg": {
         "Patient Name": "Kulsum",
@@ -212,7 +212,7 @@
         "Diagnosis 1": "Sinus rhythm with short RR otherwise Normal ECG",
         "Heart Rate": "88 bpm",
         "date": "24-07-25",
-        "ECG_Label": ""
+        "ECG_Label": "normal ECG"
     },
     "ecg_472.jpg": {
         "Patient Name": "Moin Shikder",
@@ -296,7 +296,7 @@
         "Diagnosis 2": "",
         "Heart Rate": "99 bpm",
         "date": "22-07-25",
-        "ECG_Label": ""
+        "ECG_Label": "Borderline ECG"
     },
     "ecg_477.jpg": {
         "Patient Name": "Md Abul Thair",
@@ -392,8 +392,8 @@
         "P": "",
         "RR/PP": "304/337 ms",
         "P/QRS/T": "/-56/159",
-        "Diagnosis 1": "Undetermined rhythm Left axis deviation",
-        "Diagnosis 2": "Nonspecific intraventricular block Lateral infarct age undetermined Inferior infarct , age undetermined Abnormal ECG",
+        "Diagnosis 1": "Undetermined rhythm Left axis deviation Nonspecific intraventricular block Lateral infarct age undetermined Inferior infarct , age undetermined Abnormal ECG",
+        "Diagnosis 2": "",
         "Diagnosis 3": "",
         "Heart Rate": "196 bpm",
         "date": "21-07-25",
@@ -524,7 +524,7 @@
         "P/QRS/T": "67 / 45 / 81 degrees",
         "Diagnosis 1": "Normal sinus rhythm Normal ECG",
         "Diagnosis 2": "",
-        "Diagnosis 3": "N/A",
+        "Diagnosis 3": "",
         "Additional Notes": "",
         "Heart Rate": "77 bpm",
         "date": "21-07-25",
@@ -639,7 +639,7 @@
         "Diagnosis 1": "Normal sinus rhythm Normal ECG",
         "Diagnosis 2": "",
         "Diagnosis 3": "",
-        "Additional Notes": "Normal ECG",
+        "Additional Notes": "",
         "Heart Rate": "91 bpm",
         "date": "18-07-25",
         "ECG_Label": "normal ECG"
@@ -1152,7 +1152,7 @@
         "Diagnosis 1": "Normal sinus rhythm with sinus arrhythmia Normal ECG",
         "Diagnosis 2": "",
         "Diagnosis 3": "",
-        "Additional Notes": "Poor data quality, interpretation may be adversely affected",
+        "Additional Notes": "",
         "Heart Rate": "63 bpm",
         "date": "13-07-25",
         "ECG_Label": "normal ECG"
@@ -1359,7 +1359,7 @@
         "RR/PP": "576 / 576 ms",
         "P/QRS/T": "84 / 80 / 81 degrees",
         "Diagnosis 1": "Sinus tachycardia Otherwise normal ECG",
-        "Diagnosis 2": "Normal ECG",
+        "Diagnosis 2": "",
         "Diagnosis 3": "",
         "Additional Notes": "",
         "Heart Rate": "104 bpm",
@@ -1691,7 +1691,7 @@
     },
     "ecg_551.jpg": {
         "Patient Name": "Monowara ",
-        "ID": "",
+        "ID": "6953",
         "Gender": "Female",
         "Age": "65",
         "QRS": "76 ms",
@@ -1760,7 +1760,7 @@
         "Diagnosis 1": "Normal Sinus Rhythm Normal ECG",
         "Diagnosis 2": "",
         "Diagnosis 3": "",
-        "Additional Notes": "GE Healthcare MAC 2000",
+        "Additional Notes": "",
         "Heart Rate": "83 bpm",
         "date": "06-07-25",
         "ECG_Label": "normal ECG"
@@ -1782,7 +1782,7 @@
         "Additional Notes": "",
         "Heart Rate": "86 bpm",
         "date": "06-07-25",
-        "ECG_Label": ""
+        "ECG_Label": "abnormal ECG"
     },
     "ecg_556.jpg": {
         "Patient Name": "Md. Rofiqul islm",
@@ -2099,8 +2099,8 @@
         "P": "92 ms",
         "RR/PP": "898 / 895 ms",
         "P/QRS/T": "75 / 60 / 29 degrees",
-        "Diagnosis 1": "Normal sinus rhythm",
-        "Diagnosis 2": "ST elevation probably due to early repolarization Borderline ECG",
+        "Diagnosis 1": "Normal sinus rhythm ST elevation probably due to early repolarization Borderline ECG",
+        "Diagnosis 2": "",
         "Diagnosis 3": "",
         "Additional Notes": "",
         "Heart Rate": "67 bpm",
@@ -3572,7 +3572,7 @@
     },
     "ecg_650.jpg": {
         "Patient Name": "Shamsun Nahar",
-        "ID": "",
+        "ID": "3229",
         "Gender": "Female",
         "Age": "51",
         "QRS": "72 ms",
@@ -3695,8 +3695,8 @@
         "P": "114 ms",
         "RR/PP": "716 / 714 ms",
         "P/QRS/T": "53 / 16 / 29 degrees",
-        "Diagnosis 1": "Normal sinus rhythm",
-        "Diagnosis 2": "Left ventricular hypertrophy with repolarization abnormality Abnormal ECG",
+        "Diagnosis 1": "Normal sinus rhythm Left ventricular hypertrophy with repolarization abnormality Abnormal ECG",
+        "Diagnosis 2": "",
         "Diagnosis 3": "",
         "Additional Notes": "",
         "Heart Rate": "84 bpm",
@@ -3971,7 +3971,7 @@
     },
     "ecg_671.jpg": {
         "Patient Name": "Khadiza",
-        "ID": "",
+        "ID": "20399",
         "Gender": "Female",
         "Age": "9",
         "QRS": "74 ms",
@@ -5367,8 +5367,8 @@
         "P": "76 ms",
         "RR/PP": "754 / 759 ms",
         "P/QRS/T": "22 / 54 / 29 degrees",
-        "Diagnosis 1": "Normal sinus rhythm",
-        "Diagnosis 2": "Normal ECG",
+        "Diagnosis 1": "Normal sinus rhythm Normal ECG",
+        "Diagnosis 2": "",
         "Diagnosis 3": "",
         "Additional Notes": "",
         "Heart Rate": "79 bpm",
@@ -5636,7 +5636,7 @@
         "Diagnosis 1": "Normal sinus rhythm Normal ECG",
         "Diagnosis 2": "",
         "Diagnosis 3": "",
-        "Additional Notes": "Technician Ordering Ph, Referring Ph, Attending Ph",
+        "Additional Notes": "",
         "Heart Rate": "60 bpm",
         "date": "27-10-25",
         "ECG_Label": "normal ECG"
@@ -5880,8 +5880,8 @@
         "P": "",
         "RR/PP": "",
         "P/QRS/T": "P-R-T axes 56 64 61",
-        "Diagnosis 1": "Normal sinus rhythm",
-        "Diagnosis 2": "Minimal voltage criteria for LVH, may be normal variant (Sokolow-Lyon) Prolonged QT Abnormal ECG",
+        "Diagnosis 1": "Normal sinus rhythm Minimal voltage criteria for LVH, may be normal variant (Sokolow-Lyon) Prolonged QT Abnormal ECG",
+        "Diagnosis 2": "",
         "Diagnosis 3": "",
         "Additional Notes": "",
         "Heart Rate": "64 bpm",
@@ -5978,7 +5978,7 @@
         "Diagnosis 1": "Normal sinus rhythm Normal ECG",
         "Diagnosis 2": "",
         "Diagnosis 3": "",
-        "Additional Notes": "90",
+        "Additional Notes": "",
         "Heart Rate": "90 bpm",
         "date": "16-10-25",
         "ECG_Label": "normal ECG"
@@ -6155,7 +6155,7 @@
         "ECG_Label": "abnormal ECG"
     },
     "ecg_786.jpg": {
-        "Patient Name": "M0stofa",
+        "Patient Name": "Mostofa",
         "ID": "",
         "Gender": "Male",
         "Age": "",
@@ -6453,7 +6453,7 @@
         "Diagnosis 1": "Normal sinus rhythm with sinus arrhythmia Normal ECG",
         "Diagnosis 2": "",
         "Diagnosis 3": "",
-        "Additional Notes": "Technician Ordering Ph, Referring Ph, Attending Ph",
+        "Additional Notes": "",
         "Heart Rate": "95 bpm",
         "date": "16-11-25",
         "ECG_Label": "normal ECG"
